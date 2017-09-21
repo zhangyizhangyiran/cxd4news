@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--信息披露标题-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginLeft="8dp"
+                  android:gravity="center_vertical"
+                  android:text="信息披露"/>
+    </LinearLayout>
+
+    <include layout="@layout/include_layout_viewline_horizontal"></include>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:divider="@drawable/btg_line_vertical"
+                  android:dividerPadding="1dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:showDividers="middle">
+        <!--基本信息-->
+        <LinearLayout
+            android:id="@+id/se_ll_essential_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_jiben_xinxi"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="基本信息"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--治理信息-->
+        <LinearLayout
+            android:id="@+id/se_ll_administer_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_zhili"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="治理信息"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--虚线-->
+    <include layout="@layout/include_layout_viewline_horizontal"></include>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:divider="@drawable/btg_line_vertical"
+                  android:dividerPadding="1dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:showDividers="middle">
+
+        <!--平台报告-->
+        <LinearLayout
+            android:id="@+id/se_ll_platform_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_pingtai_baogao"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="平台报告"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--重大事项-->
+        <LinearLayout
+            android:id="@+id/se_ll_matter_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_shixiang"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="重大事项"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/include_layout_viewline_horizontal"></include>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:divider="@drawable/btg_line_vertical"
+                  android:dividerPadding="1dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:showDividers="middle">
+
+
+        <!--网贷知识-->
+        <LinearLayout
+            android:id="@+id/se_ll_Person_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_wangdai_zhishi"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="网贷知识"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--政策法规-->
+        <LinearLayout
+            android:id="@+id/se_ll_Legislation_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_fagui"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:text="政策法规"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

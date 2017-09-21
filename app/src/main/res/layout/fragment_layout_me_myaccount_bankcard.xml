@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"></include>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bankcard_rl_bankcard"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bankcard_tv_real_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_layout_circle_identityno"
+                    android:padding="5dp"
+                    android:text="未认证"
+                    android:textColor="@color/Color_Main_Text_Wihte"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Twelve" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/bankcard_et_real_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_loginname"
+                    android:hint="张**"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/bankcard_et_card_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_banktype"
+                    android:hint="中国工商银行"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/bankcard_et_card_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_bankcard"
+                    android:hint="6114******0172"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="如需更改号码请拨打客服电话,按客服提示操作"
+                    android:textColor="@color/Color_Inves_Text_Gray"
+                    android:visibility="gone"
+                    android:textSize="@dimen/Twelve" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <!--<LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>-->
+
+                    <TextView
+                        android:id="@+id/bankcard_tv_call_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:clickable="true"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/activity_button_selector_withdrawals"
+                        android:text="解绑银行卡"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/Seventeen" />
+
+                    <!--<LinearLayout
+                        android:id="@+id/bankcard_ll_call_phone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="6"
+                        android:background="@drawable/activity_button_selector_withdrawals"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/bankcard_tv_call_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:gravity="center_vertical"
+                            android:text="解绑银行卡"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/Seventeen" />
+                    </LinearLayout>-->
+
+                    <!--<LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--=========================================================================================================-->
+
+        <com.cxd.cxd4android.widget.X5WebView
+            android:id="@+id/bankcard_wv_bank_card"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+        </com.cxd.cxd4android.widget.X5WebView>
+    </LinearLayout>
+</LinearLayout>

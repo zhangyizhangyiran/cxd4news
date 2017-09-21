@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shbcustody_accoount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cxd.cxd4android.shbbank.accountmanagement.SHBCustodyAccoountActivity">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+    </include>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="9.8"
+                  android:orientation="vertical">
+        <!--真实姓名-->
+
+        <include layout="@layout/shb_account_custoday_name_include"></include>
+        <!--身份证号-->
+        <include layout="@layout/shb_account_custoday_card_number_include"></include>
+        <!--上海存管账号-->
+        <include layout="@layout/shb_account_custoday_bank_card_number_include"></include>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:gravity="center"
+                      android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_gravity="bottom"
+                      android:layout_marginBottom="10dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:drawableLeft="@mipmap/shb_bank"
+                      android:text="由上海银行提供存管账户"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

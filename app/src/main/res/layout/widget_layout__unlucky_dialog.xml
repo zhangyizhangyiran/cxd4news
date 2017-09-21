@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_layout_circle_dialog"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <RelativeLayout
+            android:id="@+id/dialog_rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:text="标题"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialog_rl_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <TextView
+                android:id="@+id/dialog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="很遗憾，您的积分不足，快去赚积分" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal" >
+
+               <!-- <TextView
+                    android:id="@+id/dialog_lucky_space"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:visibility="gone"/>-->
+                <TextView
+                    android:id="@+id/dialog_confirm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:background="@drawable/activity_button_selector_recharge"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/dialog_sure"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:text="去赚积分"
+                    android:background="@drawable/activity_button_selector_withdrawals"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/dialog_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:src="@mipmap/lack_of_integral"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dialog_lucky_closed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/colsed"
+        android:layout_alignRight="@id/linearLayout2"
+        android:layout_alignTop="@id/linearLayout2"
+        />
+
+
+</RelativeLayout>

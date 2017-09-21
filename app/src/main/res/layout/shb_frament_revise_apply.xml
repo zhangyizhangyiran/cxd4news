@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+
+    <TextView android:id="@+id/shb_tv_revise_apply_yi"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text=""/>
+
+    <TextView android:id="@+id/shb_tv_revise_apply_explain"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:gravity="center"
+              android:text=""/>
+
+    <Button android:id="@+id/shb_but_revise_apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="26dp"
+            android:background="#FF3D64B4"
+            android:text=""
+            android:textColor="@android:color/white"/>
+
+
+</LinearLayout>

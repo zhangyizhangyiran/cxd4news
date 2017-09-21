@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#34415A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="借款人资料图"/>
+    <!--横线-->
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/include_layout_viewline_horizontal">
+
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/prodetails_rv_recycler_viewinfos"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

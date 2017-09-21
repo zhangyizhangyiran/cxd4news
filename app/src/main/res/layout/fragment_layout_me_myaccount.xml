@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_View_Main_Background"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/Color_View_Main_Background"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/myaccount_ll_bind_phone"
+                        layout="@layout/include_layout_myaccount_phone" />
+
+                    <include
+                        android:id="@+id/myaccount_ll_real_name"
+                        layout="@layout/include_layout_myaccount_name" />
+
+                    <include
+                        android:id="@+id/myaccount_ll_bank_card"
+                        layout="@layout/include_layout_myaccount_bank" />
+                    <include
+                        android:id="@+id/myaccount_ll_pws_trans"
+                        layout="@layout/include_layout_myaccount_pwstrans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/myaccount_ll_pws_login"
+                        layout="@layout/include_layout_myaccount_pwslogin" />
+
+
+                    <include
+                        android:id="@+id/myaccount_ll_pws_switch"
+                        layout="@layout/include_layout_myaccount_pwsgesture_switch" />
+
+                    <include
+                        android:id="@+id/myaccount_ll_pws_modify"
+                        layout="@layout/include_layout_myaccount_pwsgesture_modify" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/myaccount_bt_exit_login"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/activity_button_selector_withdrawals"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="退出登录"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/Seventeen" />
+                </LinearLayout>
+            </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

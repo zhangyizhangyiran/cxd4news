@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/newnotices_linear"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/x10"
+        android:id="@+id/linearLayout"
+        android:weightSum="3">
+
+    <TextView
+        android:id="@+id/newnotices_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btg_logout_title"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_weight="1.8"
+        android:layout_gravity="start|center_vertical"/>
+
+
+    <TextView
+        android:id="@+id/newnotices_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2016-1-1"
+        android:textSize="15sp"
+        android:gravity="end"
+        android:layout_weight="1.2"
+        android:layout_gravity="end|center_vertical"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/newnotices_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_below="@+id/linearLayout"
+        android:ellipsize="end" />
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+</LinearLayout>

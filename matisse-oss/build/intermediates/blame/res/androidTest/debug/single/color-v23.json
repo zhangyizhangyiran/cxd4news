@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/androidTest/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

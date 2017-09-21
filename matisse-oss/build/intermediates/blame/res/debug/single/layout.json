@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/activity_matisse.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/activity_matisse.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/media_grid_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/media_grid_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/fragment_preview_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/fragment_preview_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/media_grid_content.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/media_grid_content.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/media_grid_content.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/media_grid_content.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/photo_capture_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/photo_capture_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/activity_matisse.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/activity_matisse.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/photo_capture_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/photo_capture_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/activity_media_preview.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/activity_media_preview.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/album_list_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/album_list_item.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/album_list_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/album_list_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/activity_media_preview.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/activity_media_preview.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/fragment_media_selection.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/fragment_media_selection.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/fragment_media_selection.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/src/main/res/layout/fragment_media_selection.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/fragment_preview_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/fragment_preview_item.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/media_grid_item.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/src/main/res/layout/media_grid_item.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/chengelhaltud/Android/cxd4android/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/administrator/AndroidStudioProjects/cxd4android_news/matisse-oss/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    }
+]

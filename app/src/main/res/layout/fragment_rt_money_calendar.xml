@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context="com.cxd.cxd4android.activity.subactivity.ReturnMoneyCalendarActivity">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2" />
+
+    <com.cxd.cxd4android.widget.FullyLayoutManager.MyScrollview
+        android:id="@+id/calendar_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/calendar_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/calendar_sr_swipe_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+-->
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/Thirty"
+                android:paddingRight="@dimen/Thirty" />
+            <!--<include layout="@layout/rt_money_middle"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+
+                android:layout_marginTop="10dp"/>-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/Color_View_Line_Background"/>
+            <TextView
+                android:id="@+id/calendar_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="16sp"
+                android:text=""/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/calendar_rv_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:gravity="center" />
+
+            <!--
+                        </android.support.v4.widget.SwipeRefreshLayout>
+            -->
+        </LinearLayout>
+    </com.cxd.cxd4android.widget.FullyLayoutManager.MyScrollview>
+
+</LinearLayout>

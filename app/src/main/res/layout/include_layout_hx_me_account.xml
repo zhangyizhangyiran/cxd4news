@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:background="@mipmap/bg23x"
+    android:orientation="horizontal"
+    android:id="@+id/hx_me_account_lly">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:src="@mipmap/touxiang3x" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="E账户"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hx_me_account_ghbaccount_lly"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:weightSum="3"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="户主名称"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:id="@+id/include_hx_tide_e_master" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="绑卡激活E账户"
+                android:textColor="@color/blue"
+                android:id="@+id/include_hx_tide_card_e_account" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/include_hx_e_account_addr"
+             android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="广东华兴银行.广州分行营业部"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="动态获取卡号"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/white"
+            android:id="@+id/include_hx_e_card_number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hx_tv_dredge_account"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_weight="3"
+        android:gravity="center|end"
+        android:textSize="16sp"
+        android:text="请开通华兴E账户>> "
+        android:visibility="visible"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

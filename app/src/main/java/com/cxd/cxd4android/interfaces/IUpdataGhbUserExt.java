@@ -1,0 +1,1 @@
+package com.cxd.cxd4android.interfaces;/** * Created by wangxiaofa on 16/11/15. */public class IUpdataGhbUserExt {    private String updataGhbUserExt;    public IUpdataGhbUserExt(String updataGhbUserExt) {        this.updataGhbUserExt = updataGhbUserExt;    }    public String getUpdataGhbUserExt() {        return updataGhbUserExt;    }}

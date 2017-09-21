@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Color_View_Main_Background"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/item_integral_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="礼品名称：" />
+
+    <TextView
+        android:id="@+id/integral_type_point_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_integral_ex"
+        android:layout_toEndOf="@id/item_integral_ex"
+        android:layout_alignBottom="@id/item_integral_ex"
+        android:ellipsize="end"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/item_integral_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/integral_type_point_name"
+        android:layout_marginTop="5dp"
+        android:text="发货状态：" />
+
+    <TextView
+        android:id="@+id/integral_type_point_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_integral_state"
+        android:layout_toEndOf="@id/item_integral_state"
+        android:layout_alignBottom="@id/item_integral_state"
+        android:layout_marginRight="10dp"
+        android:text="" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@id/item_integral_state"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="立即确认"
+        android:gravity="center"
+        android:visibility="visible"
+        android:textColor="@color/red"
+        android:id="@+id/item_integral_btn"/>
+    <!--<TextView
+        android:id="@+id/item_integral_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_integral_state"
+        android:layout_marginTop="5dp"
+        android:text="快递公司：" />
+
+    <TextView
+        android:id="@+id/integral_type_express_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_integral_company"
+        android:layout_toEndOf="@id/item_integral_company"
+        android:layout_alignBottom="@id/item_integral_company"
+        android:ellipsize="end"
+        android:text="" />
+    <TextView
+        android:id="@+id/item_integral_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_integral_company"
+        android:layout_marginTop="5dp"
+        android:text="快递单号：" />
+
+    <TextView
+        android:id="@+id/integral_type_express_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_integral_tracking"
+        android:layout_toEndOf="@id/item_integral_tracking"
+        android:layout_alignBottom="@id/item_integral_tracking"
+        android:ellipsize="end"
+        android:text="" />-->
+</RelativeLayout>

@@ -1,0 +1,178 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'//添加apt命令
+
+apply plugin: 'com.bugtags.library.plugin'
+//必须配置，否则自动上传不会生效
+bugtags {
+    appKey '1c48e512701e7fcc061f326cbb580886' //这里是你的 appKey
+    appSecret 'e3db98dcc4f0ce677d0f934887320c19' //这里是你的 appSecret，管理员在设置页可以查看
+    // mappingUploadEnabled false： 如果要暂停自动上传符号表，则可以配置
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "com.cxd.cxd4android"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 23
+        versionName "2.6.5"
+
+        // Enabling multidex support.
+        multiDexEnabled true
+
+        ndk {
+            abiFilters "armeabi"
+        }
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件,true为移除（因为使用到淘宝一键登录中的签名图片，所以必须不能移除）
+            shrinkResources true
+//            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    dexOptions {
+//        incremental true
+//        javaMaxHeapSize "4g"
+        preDexLibraries true
+        dexInProcess = true
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    productFlavors {
+        "360" {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "360手机助手", CXD_CHANNEL_ID_VALUE: "a7cc241fdc2f332707f21ef67602efaab6beead9"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "应用宝", CXD_CHANNEL_ID_VALUE: "53d1c8ba2bd708c9089d3a3cb2e6254418ed2e6f"]
+        }
+        wandoujia {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "豌豆荚", CXD_CHANNEL_ID_VALUE: "328c6599cab9ab6fa7d531563117ded8543dcacb"]
+        }
+        xiaomi {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "小米应用市场", CXD_CHANNEL_ID_VALUE: "d969727c153387b6ae0cb49299cb8ed1e053dc81"]
+        }
+        bdsjzs {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "百度手机助手", CXD_CHANNEL_ID_VALUE: "20d368ad8f35f07e2453fabdda7e01c2a4f72782"]
+        }
+        guanwang {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "官网", CXD_CHANNEL_ID_VALUE: "cc044b21bfba95aed0cfa42393db9dcf424e587b"]
+        }
+        gongzhonghao {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "官网公众号", CXD_CHANNEL_ID_VALUE: "890959f2acab71f6b9ffb282fec08a181a0f52f6"]
+        }
+        jrtt {
+            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "今日头条", CXD_CHANNEL_ID_VALUE: "9720908f31411d298f61ecbae7d845b61a465070"]
+        }
+
+//        ucxxl {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "UC信息流", CXD_CHANNEL_ID_VALUE: "6c916f5d03dc8867bd571dd06c0d30699c5056a7"]
+//        }
+//        shenma {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "神马", CXD_CHANNEL_ID_VALUE: "f881d488120d904f3ec21ff1885a890e5d854098"]
+//        }
+//        baidu {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "百度", CXD_CHANNEL_ID_VALUE: "0cc2662f5eb157c8ffcd43c145de499f2ab27a71"]
+//        }
+//        wangyi {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "网易", CXD_CHANNEL_ID_VALUE: "b3db930f8f21f945289061a6d909da749c141773"]
+//        }
+//        momo {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "陌陌", CXD_CHANNEL_ID_VALUE: "f90a13fdb95f8b4a4afb377985333aec0986ecdc"]
+//        }
+//        sina {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "新浪", CXD_CHANNEL_ID_VALUE: "99d87ac28dd9559a70b381c14d0f01f3cfb7e32e"]
+//        }
+//        fensitong {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "粉丝通", CXD_CHANNEL_ID_VALUE: "8251bde00dac83cf575f34703c6c8636b7a83b43"]
+//        }
+//        wlyx {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "网联亿信", CXD_CHANNEL_ID_VALUE: "e4904f7a7bda77124ab19ea3447ba551e596f018"]
+//        }
+//        shhs {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "搜狐汇算", CXD_CHANNEL_ID_VALUE: "6550c9eedd062d6f0a350ec481df784a778934f8"]
+//        }
+//        xxqd {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "线下渠道", CXD_CHANNEL_ID_VALUE: "f580af19ff63064cad8f09aa5cef89cfa17c8eba"]
+//        }
+//        zhwnl {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "中华万年历", CXD_CHANNEL_ID_VALUE: "a56b199b2084030e0d76ba4ffa6fa86a3e1e43a4"]
+//        }
+//        wc {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "微车", CXD_CHANNEL_ID_VALUE: "90befa07ba7f732a4389ce523727dfba12d83c50"]
+//        }
+//        czwy {
+//            manifestPlaceholders = [CXD_CHANNEL_NAME_VALUE: "车主无忧", CXD_CHANNEL_ID_VALUE: "64b4c445347216f96c3404a3981b2226e3ef1211"]
+//        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('src/main/libs/android_api_3.7.1.1.jar')
+    compile files('libs/jpush-android-2.0.6.jar')
+    compile files('libs/MobCommons-2016.0301.1053.jar')
+    compile files('libs/MobTools-2016.0301.1053.jar')
+    compile files('libs/ShareSDK-Core-2.7.0.jar')
+    compile files('libs/ShareSDK-QQ-2.7.0.jar')
+    compile files('libs/ShareSDK-QZone-2.7.0.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.7.0.jar')
+    compile files('libs/ShareSDK-Wechat-2.7.0.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.7.0.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.7.0.jar')
+    compile files('libs/ShareSDK-Douban-2.7.0.jar')
+    compile files('libs/ShareSDK-TencentWeibo-2.7.0.jar')
+    compile files('libs/ShareSDK-Email-2.7.0.jar')
+    compile files('libs/ShareSDK-ShortMessage-2.7.0.jar')
+    compile project(':calendar_library')
+    compile project(':micros')
+    // dagger2
+    // dagger2
+    // dagger2
+    // Java标注
+    //
+    compile project(':matisse-oss')
+    compile files('libs/aliyun-oss-sdk-android-2.3.0.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.bugtags.library:bugtags-lib:latest.integration'
+    compile 'com.google.dagger:dagger:2.4'
+    compile 'com.github.barteksc:pdfium-android:1.6.1'
+    compile 'com.github.chrisbanes.photoview:library:1.2.3'
+    compile 'com.facebook.rebound:rebound:0.3.8'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:support-vector-drawable:23.4.0'
+    testCompile 'junit:junit:4.12'
+    apt 'com.google.dagger:dagger-compiler:2.4'
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    provided 'javax.annotation:jsr250-api:1.0'
+}

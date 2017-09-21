@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="false"
+        android:background="@mipmap/pic_4"
+        android:focusable="true"
+        android:scaleType="centerCrop" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_start_weibo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="70dp"-->
+    <!--android:background="@mipmap/startbtn"-->
+    <!--android:focusable="true" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal">
+
+        <!--<ImageView-->
+
+        <!--android:id="@+id/iv_start_weibo"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginBottom="70dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_weight="6"-->
+        <!--android:background="@mipmap/startbtn"-->
+        <!--android:focusable="true" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_start_register"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginBottom="70dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_weight="6"-->
+        <!--android:background="@mipmap/startbtn"-->
+        <!--android:focusable="true" />-->
+        <TextView
+            android:id="@+id/iv_start_register"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="3"
+            android:background="@drawable/shape_layout_dialog"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="注册/登录"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/iv_start_weibo"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="3"
+            android:background="@drawable/shape_layout_dialog"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="进入首页"
+            android:textColor="@color/white"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

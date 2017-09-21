@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:divider="@drawable/btg_line_horizontal"
+    android:orientation="vertical"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        android:id="@+id/bonus_details_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="收货人："
+            android:textColor="@color/Color_Main_Text_title" />
+
+
+        <EditText
+            android:id="@+id/ship_addr_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入您的姓名"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/Color_Main_Text_title" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/ship_addr_name_hint"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical|start"
+            android:text="*收件人不能为空"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="手机号码："
+            android:textColor="@color/Color_Main_Text_title" />
+
+        <EditText
+            android:id="@+id/ship_addr_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入您的手机号码"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@color/Color_Main_Text_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/ship_addr_phone_hint"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical|start"
+            android:text="*手机号码不正确"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:text="详细地址："
+            android:textColor="@color/Color_Main_Text_title" />
+
+        <EditText
+            android:id="@+id/ship_addr_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="6"
+            android:background="@null"
+            android:paddingTop="10dp"
+            android:gravity="start"
+            android:hint="请输入详细地址"
+            android:textSize="14sp"
+            android:inputType="textMultiLine|textAutoComplete"
+            android:lines="3"
+            android:maxLines="3"
+            android:scrollHorizontally="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:singleLine="false"
+            android:textColor="@color/Color_Main_Text_title" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/ship_addr_details_hint"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical|start"
+            android:text="*地址不能为空"
+            android:textColor="@color/red"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ship_addr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/activity_button_selector_recharge"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

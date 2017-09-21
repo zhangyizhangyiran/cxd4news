@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_View_Main_Background"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"></include>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9.7">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Color_Main_Text_Wihte"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/recharge_iv_bank_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_me_zhangdan"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/recharge_tv_bank_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textSize="@dimen/Fifteens"
+                    android:text="中国工商银行"/>
+                <TextView
+                    android:id="@+id/recharge_tv_card_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Twelve"
+                    android:text="尾号0000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/Color_Inves_Text_Gray"
+                android:textSize="@dimen/Fourteen"
+                android:text="诚信贷账户可用余额(元)"/>
+            <TextView
+                android:id="@+id/recharge_tv_available_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Color_Bout_Text_Red"
+                android:textSize="@dimen/Fifteens"
+                android:text="0.00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/recharge_et_recharge_money"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:hint="请输入充值金额(元)"
+                android:inputType="numberDecimal"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textColorHint="@color/Color_Inves_Text_Gray"
+                android:textSize="@dimen/Fourteen" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/recharge_bt_submit_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_layout_circle_loginbutton"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Seventeen" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

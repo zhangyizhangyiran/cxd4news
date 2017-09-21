@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.cxd.cxd4android.shbbank.accountmanagement.AccountManagementActivity">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+    </include>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="10.8"
+                  android:orientation="vertical">
+        <!--用户名-->
+        <include layout="@layout/shb_account_manage_include"></include>
+        <!--登录密码-->
+        <include layout="@layout/shb_account_manage_login_include"></include>
+        <!--手势密码-->
+        <include layout="@layout/shb_account_manage_gesture_include"></include>
+        <!--风险评估-->
+        <include layout="@layout/shb_account_manage_risk_include"></include>
+        <include
+            layout="@layout/include_layout_viewline_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+        <!--上海银行存管账户-->
+        <include layout="@layout/shb_account_manage_bank_include"></include>
+        <!--银行卡号-->
+        <include layout="@layout/shb_account_manage_bank_card_include"></include>
+        <!--银行卡预留手机号-->
+        <include layout="@layout/shb_account_manage_phone_number_include"></include>
+        <!--交易密码-->
+        <include layout="@layout/shb_account_manage_deal_include"></include>
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp">
+
+            <Button android:id="@+id/shb_account_but_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/Color_Main_Title_Bar"
+                    android:gravity="center"
+                    android:text="退出登录"
+                    android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

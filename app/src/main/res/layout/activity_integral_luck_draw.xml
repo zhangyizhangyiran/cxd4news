@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context=".activity.subactivity.MyBsIntegralLuckDrawActivity">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:text="积分余额：" />
+
+        <TextView
+            android:id="@+id/luckdraw_integral_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+
+            android:text="0" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="可抽次数：" />
+
+        <TextView
+            android:id="@+id/luckdraw_luck_count"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:text="0" />
+
+    </LinearLayout>-->
+    <com.cxd.cxd4android.widget.X5WebView
+        android:id="@+id/luckdraw_luck_web"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8">
+
+    </com.cxd.cxd4android.widget.X5WebView>
+</LinearLayout>

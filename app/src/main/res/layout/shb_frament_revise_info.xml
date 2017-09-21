@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:fillViewport="true">
+
+        <!--信息输入-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4"
+                      android:orientation="vertical">
+            <!--姓名-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp">
+
+                <TextView android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="姓名"/>
+
+                <EditText android:id="@+id/fragment_revise_ed_name"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="5"
+                          android:background="@null"
+                          android:hint="请输入真实姓名"
+                          android:textColorHint="#FFA8ADBA"
+                          android:textSize="12sp"/>
+
+            </LinearLayout>
+            <!--横线-->
+            <include layout="@layout/include_layout_viewline_horizontal">
+
+            </include>
+
+            <!--身份证-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp">
+
+                <TextView android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="身份证"/>
+
+                <EditText android:id="@+id/fragment_revise_ed_card"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="5"
+                          android:background="@null"
+                          android:hint="请输入身份证号"
+                          android:textColorHint="#FFA8ADBA"
+                          android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!--横线-->
+            <include layout="@layout/include_layout_viewline_horizontal">
+
+            </include>
+            <!--银行卡-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp">
+
+                <TextView android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="银行卡"/>
+
+                <EditText android:id="@+id/fragment_revise_ed_card_number"
+                          android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="5"
+                          android:background="@null"
+                          android:hint="请输入旧银行卡号"
+                          android:textColorHint="#FFA8ADBA"
+                          android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <!--身份证上传-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="10"
+                          android:orientation="vertical">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="1">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginTop="10dp"
+                              android:gravity="center"
+                              android:text="请您手持身份证进行正反面拍照"
+                              android:textColor="#FF7A859D"
+                              android:textSize="14sp"/>
+                </LinearLayout>
+
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+
+                    <ImageView android:id="@+id/shb_fragment_updated_z"
+                               android:layout_width="300dp"
+                               android:layout_height="160dp"
+                               android:background="@mipmap/shb_identity_z"
+                               android:clickable="true"
+                               android:scaleType="centerCrop"/>
+
+                    <TextView android:id="@+id/shb_fragment_tv_dele"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:visibility="gone"
+                              android:layout_alignRight="@+id/shb_fragment_updated_z"
+                              android:text="删除"/>
+
+                </RelativeLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="1">
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginTop="10dp"
+                              android:gravity="center"
+                              android:text="身份证正面"
+                              android:textColor="#FFA8ADBA"
+                              android:textSize="14sp"/>
+                </LinearLayout>
+
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:gravity="center">
+                    <ImageView android:id="@+id/shb_fragment_updated_f"
+                               android:layout_width="300dp"
+                               android:layout_height="160dp"
+                               android:background="@mipmap/shb_identity_f"
+                               android:scaleType="centerCrop"/>
+                    <TextView android:id="@+id/shb_fragment_tv_dele_two"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="删除"
+                              android:visibility="gone"
+                              android:layout_alignRight="@+id/shb_fragment_updated_f"
+                    />
+
+                </RelativeLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="1">
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginTop="10dp"
+                              android:gravity="center"
+                              android:text="身份证反面"
+                              android:textColor="#FFA8ADBA"
+                              android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="1">
+                    <Button android:id="@+id/shb_fragment_but_open"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="6dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="#FF3D64B4"
+                            android:text="提交"
+                            android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:layout_weight="3"
+                              android:orientation="vertical">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:layout_marginTop="10dp"
+                              android:text="温馨提示："
+                              android:textColor="#FF34415A"
+                              android:textSize="12sp"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="1、修改银行卡需要人工审核，时间为T+3个工作日。为了不影响您的提现，请合理安排时间。"
+                              android:textColor="#FF7A859D"
+                              android:textSize="12sp"/>
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="10dp"
+                              android:text="2、上传身份证要求："
+                              android:textColor="#FF7A859D"
+                              android:textSize="12sp"
+                    />
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="20dp"
+                              android:layout_marginLeft="10dp"
+                              android:text="双手持身份证，露出手臂，手指不可遮挡身份证信息；
+身份证信息放大后，可清晰可见内容；
+照片需免冠，五官清晰可见；
+照片内容真实有交，不得做出任何修改。"
+                              android:textColor="#FF7A859D"
+                              android:textSize="12sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--</LinearLayout>-->
+    </ScrollView>
+
+</LinearLayout>

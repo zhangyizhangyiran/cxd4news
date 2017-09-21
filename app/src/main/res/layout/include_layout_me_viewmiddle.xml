@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+
+    <RadioGroup
+        android:id="@+id/radio_hx_yb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:divider="@drawable/btg_line_vertical"
+        android:dividerPadding="6dp"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <RadioButton
+            android:id="@+id/me_huaxing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/shanghai" />
+
+        <RadioButton
+            android:id="@+id/me_yibao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/huaxing" />
+    </RadioGroup>
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/me_ll_shb_opennow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6"
+        android:gravity="center"
+        android:visibility="gone"
+
+        android:background="@color/Color_Main_Text_Wihte"
+
+        android:orientation="vertical">
+        <Button android:id="@+id/me_btn_shb_opennow_middle"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#FFFF8A69"
+            android:text="立即激活"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me_ll_shb_opend"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6"
+        android:background="@color/Color_Main_Text_Wihte"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/me_ll_total_assets"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="资产总额"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(元)"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="9sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/me_tv_total_assets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+            </LinearLayout>
+
+            <include layout="@layout/include_layout_viewline_verticalspace" />
+
+            <LinearLayout
+                android:id="@+id/me_ll_available_balance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="可用余额"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(元)"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="9sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/me_tv_available_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/include_layout_viewline_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:orientation="horizontal">
+
+
+            <include layout="@layout/include_layout_viewline_vertical" />
+
+            <LinearLayout
+                android:id="@+id/me_ll_frozen_funds"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="冻结资金"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(元)"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="9sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/me_tv_frozen_funds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <include layout="@layout/include_layout_viewline_verticalspace" />
+
+            <LinearLayout
+                android:id="@+id/me_ll_amount_received"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待收金额"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(元)"
+                        android:textColor="@color/Color_Me_Text_title"
+                        android:textSize="9sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/me_tv_amount_received"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.00"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textIsSelectable="false"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

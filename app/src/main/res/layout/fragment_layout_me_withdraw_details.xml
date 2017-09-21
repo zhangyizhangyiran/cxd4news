@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.7">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.cxd.cxd4android.widget.X5WebView
+                    android:id="@+id/details_wb_withdraw_details"
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_height="match_parent">
+
+                </com.cxd.cxd4android.widget.X5WebView>
+
+            </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

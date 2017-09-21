@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/topbj"
+    android:gravity="center"
+    android:layout_height="260dp">
+
+    <Button android:id="@+id/me_btn_shb_opennow_top"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#FFFF8A69"
+        android:text="立即开通"
+        android:textColor="#FFFFFFFF"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="10sp"
+        android:textColor="#AFC8FD"
+        android:text="为保证您的财产安全，请开通上海银行存管账户，资金由上海银行进行存管"/>
+</LinearLayout>

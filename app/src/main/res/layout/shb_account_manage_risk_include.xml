@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:id="@+id/shb_layout_risk"
+              android:paddingLeft="8dp"
+              android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="风险评估"
+                android:gravity="center_vertical"
+                android:textColor="#FF34415A"
+                android:textSize="@dimen/Fifteens"/>
+
+            <TextView
+                android:id="@+id/shb_tv_risk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="6dp"
+                android:drawableRight="@mipmap/ic_common_right"
+                android:text=""
+                android:textColor="#FF5F8CE7"
+                android:textSize="@dimen/Thirteen"/>
+        </LinearLayout>
+
+        <include
+            layout="@layout/include_layout_viewline_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+           />
+</LinearLayout>

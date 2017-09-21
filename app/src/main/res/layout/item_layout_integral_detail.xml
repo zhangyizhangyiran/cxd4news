@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="9.8"
+    android:divider="@drawable/btg_line_horizontal"
+    android:dividerPadding="1dp"
+    android:showDividers="end">
+
+
+
+    <LinearLayout
+        android:id="@+id/integral_detail_lly"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <!-- <LinearLayout
+             android:layout_width="0dp"
+             android:layout_weight="0.5"
+             android:gravity="center|left"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/item_tv_id_dete" />
+             &lt;!&ndash;<TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="00000166"
+                 android:id="@+id/item_tv_id_num" />&ndash;&gt;
+         </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_integral_time_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:text="2015-11-10"
+                android:id="@+id/item_tv_time_dete" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_integral_amount_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_integral_balance_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dp"
+            android:singleLine="true"
+            android:gravity="right|center_vertical"
+            android:drawableRight="@mipmap/ic_common_top"
+            android:text="充值"
+            android:id="@+id/item_tv_type_money" />-->
+        <LinearLayout
+            android:id="@+id/item_ll_integral_type_money"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_integral_type_money"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/ic_common_top"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:text="备注" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/item_layout_integral_invest"
+        layout="@layout/include_layout_integral_invest"
+        android:visibility="gone" />
+
+    <include layout="@layout/include_layout_integral_type"
+        android:id="@+id/item_layout_integral_type"
+        android:visibility="gone" />
+</LinearLayout>

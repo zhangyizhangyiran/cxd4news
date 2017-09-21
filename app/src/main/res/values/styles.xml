@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Color_Action_Bar</item>
+        <item name="colorPrimaryDark">@color/Color_Action_Bar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- NumberProgressBar进度条相关style -->
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">@color/Color_Inves_Text_Gray</item>
+        <item name="progress_reached_color">@color/Color_Main_Title_Bar</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">@color/Color_Main_Title_Bar</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <!-- 普通提示对话框  Style -->
+    <style name="mydialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+
+    <!-- APP更新进度条 -->
+    <style name="StyleProgressBarMini" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">50dp</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/progressbar_color</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@mipmap/pic_start</item>
+    </style>
+    <!--优惠券-->
+    <style name="coupon_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/AddressStyleAnimation</item>
+    </style>
+
+    <style name="Make_Money" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AddressStyleAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+
+    <style name="AnimationArrowLeft">
+        <item name="android:windowEnterAnimation">@anim/pop_show_left</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide_left</item>
+    </style>
+
+    <style name="AnimationArrowRight">
+        <item name="android:windowEnterAnimation">@anim/pop_show_right</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide_right</item>
+    </style>
+
+    <style name="AnimationArrowUp">
+        <item name="android:windowEnterAnimation">@anim/pop_show_up</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide_up</item>
+    </style>
+
+    <style name="AnimationArrowDown">
+        <item name="android:windowEnterAnimation">@anim/pop_show_down</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide_down</item>
+    </style>
+
+    <style name="AnimationArrowNone">
+        <item name="android:windowEnterAnimation">@anim/pop_show_center</item>
+        <item name="android:windowExitAnimation">@anim/pop_hide_center</item>
+    </style>
+
+</resources>

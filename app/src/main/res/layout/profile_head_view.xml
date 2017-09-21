@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@drawable/topbj"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/bounts_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="总积分"
+        android:textSize="14sp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/me_ll_bouns_points_help"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:padding="6dp"
+        android:src="@mipmap/question" />
+
+    <TextView
+        android:id="@+id/me_bouns_points_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bounts_titles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="0"
+        android:textSize="46sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22eeeeee"
+        android:divider="@drawable/btg_line_vertical"
+        android:dividerPadding="10dp"
+        android:showDividers="middle"
+        tools:ignore="UnusedAttribute" android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/profile_head_bonus_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="@string/pounts_detail"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/profile_head_go_bonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="@string/go_pounts"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

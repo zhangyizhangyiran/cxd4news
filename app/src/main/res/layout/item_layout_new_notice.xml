@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="9.7"><!--9.8-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/newnotice_iv_notice_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/ic_me_bg" />
+
+        <TextView
+            android:id="@+id/newnotice_tv_notice_dete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="2015-12-12" />
+        <include layout="@layout/include_layout_viewline_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>

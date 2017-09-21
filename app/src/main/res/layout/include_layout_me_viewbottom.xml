@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical">
+
+
+    <!--yi以上是不可点击的视图-->
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/Color_View_Main_Background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:divider="@drawable/btg_line_vertical"
+        android:dividerPadding="1dp"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+
+        <LinearLayout
+            android:id="@+id/me_re_my_investment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_re_my_investment_img"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/me_re_my_investment_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:text="我的投资"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/me_re_my_bill"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_re_my_bill_img"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/me_re_my_bill_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="我的账单"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_re_my_account"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_re_my_account_img"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/me_re_my_account_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="我的账户"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_re_my_recom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_re_my_recom_img"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="邀请好友"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:divider="@drawable/btg_line_vertical"
+        android:dividerPadding="1dp"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+
+        <LinearLayout
+            android:id="@+id/me_ll_money_calendar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_ll_money_calendar_img"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="回款日历"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_ll_bouns_points"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_ll_bouns_points_img"
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="积分商城"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_ll_red_wrap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_ll_red_wrap_img"
+                android:src="@mipmap/ic_me_hongbao"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="我的红包"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_ll_guide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/me_ll_guide_img"
+                android:src="@mipmap/ic_me_fuli"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawablePadding="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="会员福利"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/me_ll_more_two"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@mipmap/yuandian"-->
+        <!--android:drawablePadding="8dp"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:textColor="@color/Color_Main_Text_title"-->
+        <!--android:textSize="12sp"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/me_ll_more_space"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <include layout="@layout/include_layout_viewline_horizontal" />
+</LinearLayout>

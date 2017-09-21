@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/shb_layout_manger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="上海银行存管账号"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/Color_Main_Text_title"
+                android:textSize="@dimen/Fifteens"/>
+
+            <TextView
+                android:id="@+id/shb_activity_bank_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="？"
+                android:textColor="@color/Color_Inves_Text_Gray"
+                android:textSize="@dimen/Thirteen"/>
+        </LinearLayout>
+
+        <include
+            layout="@layout/include_layout_viewline_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</LinearLayout>

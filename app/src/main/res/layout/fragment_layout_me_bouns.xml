@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="11"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/bonus_swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8">
+
+        <com.cxd.cxd4android.widget.view.MyScrollview
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/linear_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/head_content"
+                    layout="@layout/profile_head_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+                <include
+                    android:id="@+id/middle_content"
+                    layout="@layout/profile_content_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </com.cxd.cxd4android.widget.view.MyScrollview>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

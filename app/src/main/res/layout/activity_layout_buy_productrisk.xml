@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:orientation="vertical"
+              android:weightSum="11">
+    <!--标题-->
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8"
+    >
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                <include
+                    android:id="@+id/include_fenkong"
+                    layout="@layout/se_show_rolloutview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </include>
+                <!--还款保障-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="还款保障" android:textColor="#7A859D"/>
+
+                    <TextView
+                        android:id="@+id/se_show_info"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:text=""
+                        android:textColor="#7A859D"/>
+                </LinearLayout>
+                <!--横线-->
+                <include
+                    android:id="@+id/include_xian"
+                    android:layout_height="15dp"
+                    android:layout_width="match_parent"
+                    layout="@layout/include_layout_viewline_horizontal">
+
+                </include>
+
+                <include
+                    android:id="@+id/include_buy"
+                    android:visibility="visible"
+                    layout="@layout/se_show_rolloutview_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp">
+
+                </include>
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="25dp"
+                          android:background="@color/Color_View_Line_Background"
+                          android:textSize="8sp"
+                          android:text="网贷有风险,投资需谨慎;预期利息不等于实际收益"
+                          android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/identityinfo_ll_identity_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/identityinfo_et_real_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_loginname"
+                    android:drawablePadding="5dp"
+                    android:hint="请输入您的真实姓名"
+                    android:padding="10dp"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/identityinfo_tv_real_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="请检查您的真实姓名"
+                android:textColor="@color/Color_Bout_Text_Red"
+                android:textSize="@dimen/Twelve"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/identityinfo_et_card_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_idcard"
+                    android:drawablePadding="5dp"
+                    android:hint="请输入您的身份证号"
+                    android:padding="10dp"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/identityinfo_tv_card_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="请检查您的身份证号"
+                android:textColor="@color/Color_Bout_Text_Red"
+                android:textSize="@dimen/Twelve"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_layout_circle_withe"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/identityinfo_et_bind_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shape_layout_circle_withe"
+                    android:drawableLeft="@mipmap/ic_me_idcard"
+                    android:drawablePadding="5dp"
+                    android:hint="请输入您的手机号"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/Color_Main_Text_title"
+                    android:textColorHint="@color/Color_Inves_Text_Gray"
+                    android:textSize="@dimen/Fourteen" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/identityinfo_tv_bind_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="请检查您的手机号"
+                android:textColor="@color/Color_Bout_Text_Red"
+                android:textSize="@dimen/Twelve"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/identityinfo_bt_submit_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_layout_circle_loginbuttonno"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="立即开户"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/Seventeen" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--=======================================================================================================================-->
+
+    </LinearLayout>
+</LinearLayout>

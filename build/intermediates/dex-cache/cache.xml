@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/src/main/libs/android_api_3.7.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="565f14f694bae63e44fcfb342c8ccc10d5de2a28">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/android_api_3.7.1.1_e80ea499e4437f0a7327763467dbb1f983d634e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/cxd4android_news/micros/unspecified/jars/libs/tbs_sdk_thirdapp_v2.3.0._sharewithdownload.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="15922a731601af59e3470964c16706adcea68327">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/8/tbs_sdk_thirdapp_v2.3.0._sharewithdownload_a8ba4628569ac1c7c6d36e8f75f140040a765a59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.3/5a1aef6a9d56efb473b8be6b66689077e7317c45/rxjava-1.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a1aef6a9d56efb473b8be6b66689077e7317c45">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/rxjava-1.1.3_5b98b2b1862be3aa6bea46295f71a8b10196d053/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Email-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7d7bd6a1c3e0aaff4365176588d8f2f505755622">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Email-2.7.0_92639b84891a3b3aa6a0741e57c43c14ddf6df7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-SinaWeibo-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="13ba1716e77463e49438b20880ec361fb55b321f">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-SinaWeibo-2.7.0_36a8e44f59f6d2c10cdd94d2208800a1c9f29cc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Core-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="89e252feaeae2a7baa6b5e1ac4e3fc1d4c4e70d1">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Core-2.7.0_a31a6865d06f3f1d452a7729618728f5f4a5c110/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Douban-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="eabbfbd4ee1844109712ef303cd61f5930e20abe">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Douban-2.7.0_9d8f47656b97deaa1f1dc3baf4034d1a58eedc24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_a3db2445172cd31b9f609b36a5982e83429a8d4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_903590f3d454955e3bb833be6434adba165c96ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-QQ-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="08e3ecb5b9a36d03bdc9cd54078e221fd2ef401d">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-QQ-2.7.0_22b003e005b26b5bad27d90dd769d805838313b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.github.chrisbanes.photoview-library-1.2.3_f7d6a51a0a19a872e60fab9b0e2a435971bca3f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.facebook.rebound/rebound/0.3.8/c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e/rebound-0.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/rebound-0.3.8_b3eaea7c05ac0f94a5546be11f5c8e175f852a6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/okhttp-3.2.0_be91ae6a06fece77f1307c09adc4dd3086c9af60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/adapter-rxjava-2.0.0_cef22708a21f222db118f4294a87a869fccebb5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/butterknife-7.0.1_f50f5641bba77d964da2a8c089b58cd1997c9843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-design-23.4.0_7120ea51264b227fc9cdd18f6c8acd304b42289c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Wechat-Core-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="925c0b32df7cfb1256002f7b0f861ff7c02617b7">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Wechat-Core-2.7.0_504475d6fd45f4cbacfadabaab92d4e0c22c6e39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.github.barteksc/pdfium-android/1.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="120a70e1f27b8e249136ea9d21811e9da1385b31">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.github.barteksc-pdfium-android-1.6.1_bd724b06ac08b1ddd92779c3cc0a26eee910fdbb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/aliyun-oss-sdk-android-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7a793de62a8d797f5f9fd2796bd5d877009f16a">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/aliyun-oss-sdk-android-2.3.0_ae779256a48b8e575ab8f8cd0d8c21107542dbf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_b5c1c873a9cd001cab016298dfb3ce20afb0fb40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.4/6b290a792253035c9fcc912d6a4d7efb3e850211/dagger-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b290a792253035c9fcc912d6a4d7efb3e850211">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/dagger-2.4_0faca2202317bfd0ff7a501e33713f68303b89d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-TencentWeibo-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4f040449556e454137d51011cf016ea7a4756d3d">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-TencentWeibo-2.7.0_10b378881b86e2bad4cab21c2667bf97d75b21e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/it.sephiroth.android.library.imagezoom/library/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="808deed0b600a65b805b642c2234feb6992dec88">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/it.sephiroth.android.library.imagezoom-library-1.0.4_21e470b5bad1c15e6f105e0cee565a5ff791b30c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_0b10cc9499e8db41605ee807c425206e68805280/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/MobCommons-2016.0301.1053.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ac79e45bfe01ce2bac0a1d1ead2aba2524f4c8b">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/MobCommons-2016.0301.1053_9f20ffe78bd02f90b685ce07f1a9fd35e961093d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_ab36bf73b5af92b364993f57aaefb9a8b0d2d21c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_196ac89e8f4d27130055515561643990a202ba6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/library-2.4.0_5336f6923714acff20ce4573d4746e1037e45cac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/support-annotations-25.3.1_ec94b59307b775b36a1275761c6e77de4647d6b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/gson-2.6.1_a6d3df3d6092569781a1dca31b76dec68143072d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/glide-3.7.0_2ea0312705655c6788e8cc795d2c340d3f6b6786/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Wechat-Moments-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0dfe0a575c3b6c39e2e4b3a74f1bac84b618cca0">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Wechat-Moments-2.7.0_58588ec34fb4baaf69deb24ca2abb660f253920b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.orhanobut/logger/1.15/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2a156b99fc7cc034308f942906b09d32754a4470">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.orhanobut-logger-1.15_572f30b1a49126997bf19a3b844fb09a4de7357c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/MobTools-2016.0301.1053.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe9bb68bf9983f6fd4882e89ea11bf6f2bbb1ded">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/MobTools-2016.0301.1053_cbf3e4dc44c094850c155bd8a0edafc1969fa068/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0/5c06d197fb7fa875ad452f562e3310dd9949d066/retrofit-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c06d197fb7fa875ad452f562e3310dd9949d066">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/retrofit-2.0.0_238bb2d695400d5146b77e4dae1553b3a3944fe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/it.sephiroth.android.library.easing/library/1.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="524dbb5c53295c006c7aa1a209aae0407d6ebc53">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/it.sephiroth.android.library.easing-library-1.0.2_2c83330be37e4ec49ad8a79b089bb66415fa2446/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/jpush-android-2.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="970e671dce88c41ca0b207e7f5383dae2a2253ce">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/jpush-android-2.0.6_3ec1a7470aed62f6dc556e24e19b7d5c9fdc533b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/eventbus-3.0.0_5dee077b9aeda8a1951e26f3e44167c27cce2e40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-compat-25.3.1_a902a04454a14ccfd3f5b1e18685fd83ee8156d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-Wechat-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="77370e7e49ebe4ae5b9c32e07424235a59f9e12c">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-Wechat-2.7.0_b5e47f53d1a5c65ca521b8fec2e9ac41ec9b8401/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-0.4.0_8642c34666d769f192237db505c0618f2f1b53a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-multidex-1.0.1_e75eb6b5d2e741a30e3d455dfa25f7ed74026c15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/javax.inject-1_97f56566fbdaeed633183a52a086e5761d7e5a08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_738334f74f58c69fc876ea6076f05638570ef538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/incremental-runtime-classes/360/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="92b3c6fb361f3e4ab4f4a3e673402c7046fad04f">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/instant-run_84610f7fcc0b21b5b333fbf6141d0b5c87185c8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/okio-1.6.0_55ed56feca7279fb6e87e49b0821e6a41f66e231/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/cxd4android_news/micros/unspecified/jars/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2ce82c44dff33530a6399041e5bea62f2a679452">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/8/sun.misc.BASE64Decoder_aacc7e872bf9a82cfd6482c7929e99ff0eb79e95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/2.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="14c09a37dfdc5f374d15219f57e4fa3a4ff8e113">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.bugtags.library-bugtags-lib-2.3.1_2fe48f31639ee350ff8d4c96a5e9966c0f966537/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/logging-interceptor-3.2.0_cc4adffa056d789b368eec8b659ec3446a907d58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0/49eb3ad545e7701234e4dd83db8dc1344b577f23/converter-gson-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/converter-gson-2.0.0_685375d695ae96d446cb8250e69f11c211a0c0f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_b846cad981342a41f7e20f6174fbdc1b70401d77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_5a4bd3e8f066e33039e98b825440c7cda4b1691e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-ShortMessage-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4351f32b2190bc5f16f49d1ef5629281d598f82d">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-ShortMessage-2.7.0_9874cee161a2d2080c896b89137502bd19bb70ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.android.support-support-v4-25.3.1_e281877b9bd881cf45757685b6e6fa8154eced1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/incremental-classes/360/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="444c8e96fa03719ec2035c88aa64316ddea106a4">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/instant-run-bootstrap_616ce667dd1ddeb4831903618af92ceb8dd21096/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/com.wang.avi/library/1.0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/com.wang.avi-library-1.0.5_d9159b1e53f9e8732ff8104e1ac4772ef04847bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/libs/ShareSDK-QZone-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e59c1382c126349d3b2a4e45e880710fe649697c">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/2/ShareSDK-QZone-2.7.0_b7404fe81651272cec6bf2722fd5f3e989087d45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/administrator/AndroidStudioProjects/cxd4android_news/app/build/intermediates/transforms/dex/360/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_8cef4aa28efd5d241eec81f78ae06853fc3dad1e/classes.dex" />
+    </item>
+
+</items>

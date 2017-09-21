@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:orientation="vertical"
+              android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"></include>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="9.8">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/prodetails_rv_recycler_viewinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <!--<TextView android:layout_width="match_parent"-->
+              <!--android:layout_height="20dp"-->
+              <!--android:background="#e7e3e3"-->
+              <!--android:text="网贷有风险,投资需谨慎;预期利息不等于实际收益"-->
+              <!--android:gravity="center"-->
+
+    <!--/>-->
+
+
+</LinearLayout>

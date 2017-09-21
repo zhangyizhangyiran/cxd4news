@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Title_Bar"
+    android:orientation="vertical"
+    android:weightSum="1.5">
+
+    <LinearLayout
+        android:id="@+id/viewtop_toplly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/Btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@mipmap/ic_common_left_white"
+            android:drawablePadding="2dp"
+            android:text="返回"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/Fifteen"
+            android:layout_marginStart="@dimen/Fifteen"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="中间"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/Twentys" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:drawablePadding="@dimen/Ten"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/Seventy"
+
+            android:layout_marginRight="@dimen/Seventy"
+            android:ellipsize="end"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/Ten"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="注册"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/filtrate"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:text="筛选"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

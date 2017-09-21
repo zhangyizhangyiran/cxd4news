@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:orientation="horizontal">
+    <!--最新公告-->
+
+    <RelativeLayout android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp">
+
+        <TextView android:id="@+id/de"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:padding="3dp"
+                  android:text="最新公告"
+                  android:textSize="20sp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignRight="@id/de"
+                  android:background="@drawable/announcements_shape"
+                  android:gravity="center"
+                  android:padding="1.5dp"
+                  android:text="6"
+                  android:textColor="@color/Color_Main_Text_Wihte"
+                  android:textSize="7sp"
+                  android:visibility="visible"/>
+    </RelativeLayout>
+
+    <!--还款通知-->
+
+    <RelativeLayout android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp">
+
+        <TextView android:id="@+id/dew"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:padding="3dp"
+                  android:text="还款通知"
+
+                  android:textSize="20sp"/>
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/announcements_shape"
+                        android:gravity="center"
+                        android:layout_alignRight="@+id/dew"
+        >
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/Color_Main_Text_Wihte"
+                      android:textSize="7sp"
+                      android:visibility="visible"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

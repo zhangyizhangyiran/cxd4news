@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/Color_Main_Text_Wihte"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+
+    <!--<TextView android:id="@+id/se_ll_new_notice"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:text="最新公告"-->
+
+
+    <!--/>-->
+    <!--<TextView android:id="@+id/se_ll_payment_notice"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:text="还款公告"-->
+
+    <!--/>-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+        <!--最新公告-->
+        <LinearLayout
+            android:id="@+id/se_ll_new_notice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_guanyu_women"
+                           android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/gonggao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:paddingLeft="4dp"
+                        android:text="最新公告"/>
+                    <TextView
+                        android:id="@+id/se_ll_new"
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_alignRight="@+id/gonggao"
+                        android:background="@drawable/shape_announcements"
+                        android:textSize="0.2sp"
+                        android:visibility="visible"
+
+                    />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--还款公告-->
+        <LinearLayout
+            android:id="@+id/se_ll_payment_notice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@mipmap/ic_se_guanyu_women"
+                           android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/huankuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="4dp"
+                        android:paddingLeft="4dp"
+                        android:text="还款公告"/>
+
+                    <TextView
+                        android:id="@+id/se_ll_repayments"
+                        android:layout_width="6dp"
+                        android:layout_height="6dp"
+                        android:layout_alignRight="@+id/huankuan"
+                        android:background="@drawable/shape_announcements"
+                        android:textSize="0.2sp"
+                        android:visibility="visible"
+
+                    />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

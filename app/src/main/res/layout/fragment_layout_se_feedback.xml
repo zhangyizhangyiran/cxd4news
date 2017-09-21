@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Color_Main_Text_Wihte"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <include
+        layout="@layout/include_layout_viewtop_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_layout_circle_withe"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/feedback_et_submit_feedback"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:hint="有什么意见或建议,来跟我们说吧!"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/Fourteen"
+                android:gravity="left|top"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/feedback_bt_submit_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_layout_circle_submitredno"
+                android:clickable="false"
+                android:gravity="center"
+                android:focusable="false"
+                android:text="提\t交"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Seventeen" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

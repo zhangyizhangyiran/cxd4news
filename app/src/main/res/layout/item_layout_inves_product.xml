@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFFFF"
+              android:orientation="vertical"
+              android:weightSum="9.7"><!--9.8-->
+
+    <LinearLayout
+        android:id="@+id/item_ll_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--条目间隔-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/Color_View_Main_Background"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <!--预期年化收益率-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="新"
+                    android:textColor="@color/Color_Bout_Text_Red"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="16"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="3"
+                                  android:gravity="center_vertical"
+                                  android:orientation="horizontal"
+                                  android:weightSum="3">
+
+                        <TextView
+                            android:id="@+id/item_tv_housing_mortgage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="房屋抵押房"
+                            android:textColor="#FF7A859D"
+                            android:textSize="@dimen/Fourteen"/>
+
+                        <TextView
+                            android:id="@+id/item_tv_jiaxi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:background="@drawable/shape_jiaxi"
+                            android:gravity="right"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="#FFFF8A69"
+                            android:textSize="@dimen/Nine"
+                            android:visibility="invisible"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="16"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_weight="5"
+                                  android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_weight="4"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/item_tv_total_percent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="20"
+                                android:textColor="#FFFF8A69"
+                                android:textSize="36sp"/>
+
+                            <TextView
+                                android:id="@+id/item_xinhao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="%"
+                                android:textColor="#FFFF8A69"
+                                android:textSize="@dimen/Sixteen"/>
+                            <TextView
+                                android:id="@+id/item_tv_jiaxi_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="#FFFF8A69"
+                                android:textSize="@dimen/Fourteen"
+                                android:visibility="invisible"/>
+                        </LinearLayout>
+
+                        <TextView android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginBottom="3dp"
+                                  android:text="预期年化收益率"
+                                  android:textColor="#FFA8ADBA"
+                                  android:textSize="@dimen/Tens"/>
+
+                    </LinearLayout>
+
+                    <!--标的说明-->
+                    <LinearLayout android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_marginTop="6dp"
+                                  android:layout_weight="5"
+                                  android:orientation="vertical">
+                        <!--投资期限-->
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginTop="9dp"
+                                      android:gravity="center_horizontal"
+                                      android:orientation="horizontal"
+                                      android:weightSum="6">
+                            <TextView android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_weight="2"
+                                      android:gravity="right"
+                                      android:text="投资期限"
+                                      android:textColor="#FFA8ADBA"
+                                      android:textSize="@dimen/Tens"/>
+
+                            <TextView android:id="@+id/item_date"
+                                      android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="6dp"
+                                      android:layout_weight="4"
+                                      android:gravity="center_vertical"
+                                      android:text=""
+                                      android:textColor="#FF34415A"
+                                      android:textSize="@dimen/Twelve"/>
+                        </LinearLayout>
+                        <!--还款方式-->
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginTop="1dp"
+                                      android:gravity="center_horizontal"
+                                      android:orientation="horizontal"
+                                      android:weightSum="6">
+                            <TextView android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_weight="2"
+                                      android:gravity="right"
+                                      android:text="还款方式"
+                                      android:textColor="#FFA8ADBA"
+                                      android:textSize="@dimen/Tens"/>
+
+                            <TextView android:id="@+id/item_type"
+                                      android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="6dp"
+                                      android:layout_weight="4"
+                                      android:gravity="center_vertical"
+                                      android:text=""
+                                      android:textColor="#FF34415A"
+                                      android:textSize="@dimen/Twelve"/>
+
+
+                        </LinearLayout>
+                        <!--剩余可投金额-->
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginTop="1dp"
+                                      android:gravity="center_horizontal"
+                                      android:orientation="horizontal"
+                                      android:weightSum="6">
+                            <TextView android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_weight="2"
+                                      android:gravity="right"
+                                      android:text="剩余可投"
+                                      android:textColor="#FFA8ADBA"
+                                      android:textSize="@dimen/Tens"/>
+
+                            <TextView android:id="@+id/item_money"
+                                      android:layout_width="0dp"
+                                      android:layout_height="wrap_content"
+                                      android:layout_marginLeft="6dp"
+                                      android:layout_weight="4"
+                                      android:gravity="center_vertical"
+                                      android:text=""
+                                      android:textColor="#FF34415A"
+                                      android:textSize="@dimen/Twelve"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="5dp"
+                          android:layout_weight="16">
+
+                <ProgressBar
+                    android:id="@+id/item_progressbars"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginTop="3dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progress"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

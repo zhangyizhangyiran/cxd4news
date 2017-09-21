@@ -1,0 +1,7 @@
+<resources>
+
+
+    <dimen name="boutfra_tv_project_rate">60sp</dimen>
+    <dimen name="boutfra_tv_project_prec">30sp</dimen>
+
+    </resources>

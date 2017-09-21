@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <!-- <ImageView
+         android:id="@+id/bonus_details_img"
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+         android:src="@mipmap/gift_confirm_bg" />-->
+    <RelativeLayout
+        android:layout_height="180dp"
+        android:layout_width="wrap_content"
+        android:padding="10dp">
+
+        <fragment
+            android:id="@+id/fragment_bsdetails_viewpager"
+            android:name="com.cxd.cxd4android.widget.viewpager.CycleViewPager"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/view_cycle_viewpager_contet" />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/include_layout_viewline_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/bonus_details_middle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bonus_details_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Color_Main_Text_title"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:text="标题" />
+
+        <LinearLayout
+            android:id="@+id/bonus_details_price_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bonus_details_price_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/Color_Bout_Text_Gray"
+                android:text="兑换价格：" />
+
+            <TextView
+                android:id="@+id/bonus_details_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bonus_details_price_bonus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:textColor="@color/Color_Bout_Text_Gray"
+                android:text="积分"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bonus_details_bonus_count"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/Color_Bout_Text_Gray"
+            android:text="现有积分：0" />
+
+        <TextView
+            android:id="@+id/bonus_details_goods_count"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/Color_Bout_Text_Gray"
+            android:text="库存：0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bonus_details_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_layout_viewline_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/Color_Main_Text_title"
+            android:background="@color/window_background"
+            android:text="图文详情" />
+
+        <include layout="@layout/include_layout_viewline_horizontal" />
+
+        <!--     <ImageView
+                 android:id="@+id/bonus_details_img2"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:scaleType="fitXY"
+                 android:adjustViewBounds="true"
+                 android:layout_margin="5dp"
+                 android:src="@mipmap/gift_confirm_bg" />-->
+
+        <com.cxd.cxd4android.widget.view.WebScrollview
+            android:id="@+id/bouns_detail_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>

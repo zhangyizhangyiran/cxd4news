@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/item_bouts_rlly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5.5">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    app:cardBackgroundColor="@color/Color_Main_Text_Wihte"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="3dp"
+                    app:cardMaxElevation="5dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2.8"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/boutfra_tv_project_rate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:background="@null"
+                                    android:gravity="center_horizontal|center_vertical"
+                                    android:text=" ?"
+                                    android:textColor="#FFFF8A69"
+                                    android:textSize="@dimen/boutfra_tv_project_rate"/>
+
+                                <TextView
+                                    android:id="@+id/boutfra_tv_project_prec"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:text="%"
+                                    android:textColor="#FFFF8A69"
+                                    android:textSize="@dimen/boutfra_tv_project_prec"
+                                    android:visibility="visible"/>
+                                <TextView
+                                    android:visibility="gone"
+                                    android:id="@+id/boutfra_tv_jiaxi"
+                                    android:text=""
+                                    android:layout_gravity="bottom"
+                                    android:textColor="#FFFF8A69"
+                                    android:textSize="@dimen/boutfra_tv_project_prec"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.7"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="top"
+                                    android:text="预期年化收益率"
+                                    android:textColor="@color/Color_Bout_Text_Gray"/>
+                            </LinearLayout>
+
+                            <!--<RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:gravity="bottom">-->
+
+                            <com.cxd.cxd4android.widget.seekbar.NumberSeekBar
+                                android:id="@+id/seekbar"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:focusable="false"
+                                android:max="100"
+                                android:maxHeight="15dp"
+                                android:minHeight="15dp"
+                                android:progressDrawable="@drawable/progressbar_color"
+                                android:thumb="@null"/>
+                            <!--style="@style/NumberProgressBar_Default"-->
+                            <!-- </RelativeLayout>-->
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"/>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="8"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/boutfra_tv_min_inves"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textColor="@color/Color_Main_Text_title"/>
+
+                                <TextView
+                                    android:id="@+id/boutfra_tv_min_deadline"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="#FFFF8A69"/>
+
+                                <TextView
+                                    android:id="@+id/boutfra_tv_min_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="@color/Color_Main_Text_title"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/boutfra_bt_make_money"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/shape_layout_circle_makemoney"
+                                android:text="马上赚钱"
+                                android:textColor="@color/Color_Main_Text_Wihte"
+                                android:textSize="@dimen/TwentyTwo"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!--<Button
+                    android:id="@+id/bout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_bout_newer"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="热门推荐"
+                    android:textColor="@color/Color_Main_Text_Wihte"
+                    android:textSize="@dimen/Fourteen" />-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x11"
+        android:background="@mipmap/ic_bout_newer"
+        android:clickable="false"
+        android:focusable="true"
+        android:text="热门推荐"
+        android:textColor="@color/Color_Main_Text_Wihte"
+        android:textSize="@dimen/Fourteen"/>
+
+
+</RelativeLayout>
